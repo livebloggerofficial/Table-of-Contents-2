@@ -1,0 +1,73 @@
+html {
+  font-family: "Roboto", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+.table-of-contents {
+  margin-bottom: 40px;
+}
+
+.table-of-contents .toc-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003049;
+}
+
+.table-of-contents a {
+  text-decoration: none;
+  color: #18445f;
+}
+
+.table-of-contents ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.table-of-contents .heading {
+  font-size: 14px;
+  font-weight: bold;
+  color: #003049;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.table-of-contents .heading::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #219ebc;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.table-of-contents .sub-heading {
+  font-size: 16px;
+  padding-left: 4px;
+  position: relative;
+}
+
+.table-of-contents .sub-heading::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 8px;
+  background: #219ebc;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.table-of-contents ul li {
+  margin: 16px 0;
+}
+
+.table-of-contents .headings-container {
+  padding-left: 16px;
+  border-left: 1px solid #49c1e5;
+}
